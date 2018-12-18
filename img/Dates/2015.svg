@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="0.939705882" fill="#C0C5BB" cx="10.65" cy="10.65" r="10.65"></circle>
+            <text id="2018" fill-opacity="0.78125" fill="#2B2B3D" font-family="Futura-Bold, Futura" font-size="6.26470588" font-weight="bold">
+                <tspan x="2.32455882" y="13">2015</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

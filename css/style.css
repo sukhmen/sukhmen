@@ -12,8 +12,9 @@ html {
   font-size: 62.5%;
 }
 
+
 body {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-family: "Open Sans", serif;
   color: #000000;
   background-color: #ffffff;
@@ -50,12 +51,36 @@ Vertical Timeline - by CodyHouse.co
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
+  /*height: 200px;
+  line-height: 200px;*/
   text-align: center;
   background: #ffffff;
 }
 
+.header-sec{
+	clear:both;
+}
+.header-sec h1{
+	font-size:40px;
+	color:#464444;
+}
+.header-sec img{
+	padding:20px;
+}
+.header-sec p{
+	line-height:1.5;
+	color:#808080;
+}
+address{
+	color:#000000;
+}
+address a{
+	color:#000000;
+	font-weight: 900;
+}
+.pColorGrey{
+	
+}
 header h1 {
   color: black;
   font-size: 1.8rem;
@@ -63,8 +88,8 @@ header h1 {
 
 @media only screen and (min-width: 1170px) {
   header {
-    height: 300px;
-    line-height: 300px;
+    /*height: 300px;
+    line-height: 300px;*/
   }
   header h1 {
     font-size: 2.4rem;
@@ -101,7 +126,7 @@ header h1 {
     margin-bottom: 3em;
   }
   .cd-timeline__container::before {
-    left: 50%;
+    left: 50.5%;
     margin-left: -2px;
   }
 }
@@ -143,33 +168,42 @@ header h1 {
           box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
+.navbar{
+	float:right;
+	padding:20px;
+}
+
+.navbar img{
+	padding:5px;
+}
+
 .cd-timeline__img img {
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+      display: block;
+    width: 250px !important;
+    height: 82px !important;
+    position: relative;
+    left: 2% !important;
+    top: -7% !important;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .cd-timeline__img.cd-timeline__img--picture {
-  background: #75ce66;
+  background: #ffffff;
 }
 
 .cd-timeline__img.cd-timeline__img--movie {
-  background: #c03b44;
+  background: #ffffff;
 }
 
 .cd-timeline__img.cd-timeline__img--location {
-  background: #f0ca45;
+  background: #ffffff;
 }
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline__img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     left: 50%;
     margin-left: -30px;
     /* Force Hardware Acceleration */
@@ -296,7 +330,67 @@ header h1 {
     font-size: 1.4rem;
   }
 }
+.mb-header{
+	display:none;
+}
+@media only screen and (max-width: 767px) {
+	.mb-header{
+		display:block;
+		padding:10px;
+		padding-top:50px;
+	}
+	.d-header{
+		display:none;
+	}
+	.header-sec h1{
+		font-size:30px;
+		color:#464444;
+	}
+	.mb-navbar img{
+		margin-right:15px;
+	}
+  
+  .cd-timeline__img img {
+		display: block;
+		width: 250px !important;
+		height: 70px !important;
+		position: relative;
+		left: 2% !important;
+		top: -34% !important;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.mb-sec img{
+			width:30%;
+			padding-right: 5px !important;
+	}
+	.modal-dialog{
+	    width: 60% !important;
+}
 
+}
+.modal-dialog{
+	    width: 20%;
+}
+.modal-header{
+	border:none;
+}
+.modal-body{
+	padding:0px;
+}
+#modalImg{
+	width:100% !important;
+}
+	.mb-sec img{
+		    float: left !important;
+    padding-right: 30px;
+	}
+	.js-cd-content .row{
+		margin-left:1% !important;
+	}
+	.cd-timeline__content{
+		box-shadow: 1px 1px 8px 5px #eceaea;
+	}
 @media only screen and (min-width: 1170px) {
   .cd-timeline__content {
     margin-left: 0;
