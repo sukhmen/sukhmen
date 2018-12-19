@@ -189,3 +189,10 @@ $(document).ready(function(){
 	   $(".caption").text('');
 	});
 });
+$(document).ready(function(){
+	$(".img-popup17").on('click',function(){
+	   var src = $(".img-popup17").attr('src');
+	   $("#modalImg").attr('src',src);
+	   $(".caption").text('');
+	});
+});
