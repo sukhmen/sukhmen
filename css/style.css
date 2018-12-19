@@ -365,12 +365,12 @@ header h1 {
 			padding-right: 5px !important;
 	}
 	.modal-dialog{
-	    width: 97% !important;
+	    width: 60% !important;
 }
 
 }
 .modal-dialog{
-	    width: 60%;
+	    width: 20%;
 }
 .modal-header{
 	border:none;
